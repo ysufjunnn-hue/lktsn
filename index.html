@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="tg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Литсейи Касбии Техникии Саноати Нассоҷии шахри Душанбе</title>
+    <meta name="description" content="Таълими касбии муосир дар Литсейи Касбии Техникии Саноати Нассоҷии шахри Душанбе. 8 ихтисосҳои касбӣ барои ояндаи равшан.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navigation-bar" data-testid="navigation-bar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="nav-logo">
+                    <a href="#hero" data-testid="link-home">Литсейи Касбии Техникии Саноати Нассоҷии шахри Душанбе</a>
+                </div>
+
+                <!-- Desktop Menu -->
+                <div class="nav-menu-desktop">
+                    <a href="#specialties" class="nav-link" data-testid="link-specialties">Ихтисосҳо</a>
+                    <a href="#location" class="nav-link" data-testid="link-location">Ҷои литсей</a>
+                    <a href="https://instagram.com/yusuf.sm" target="_blank" rel="noopener noreferrer" class="nav-icon-btn" data-testid="link-instagram" aria-label="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                    </a>
+                    <a href="https://wa.me/992985496169" target="_blank" rel="noopener noreferrer" class="btn btn-primary" data-testid="button-whatsapp-nav">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                        <span>WhatsApp</span>
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" id="mobile-menu-btn" data-testid="button-mobile-menu" aria-label="Menu">
+                    <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+                    <svg class="close-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobile-menu" data-testid="mobile-menu">
+            <div class="mobile-menu-content">
+                <a href="#specialties" class="mobile-menu-item" data-testid="link-specialties-mobile">Ихтисосҳо</a>
+                <a href="#location" class="mobile-menu-item" data-testid="link-location-mobile">Ҷои литсей</a>
+                <a href="https://instagram.com/yusuf.sm" target="_blank" rel="noopener noreferrer" class="mobile-menu-item" data-testid="link-instagram-mobile">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                    Instagram
+                </a>
+                <a href="https://wa.me/992985496169" target="_blank" rel="noopener noreferrer" class="btn btn-primary mobile-menu-item" data-testid="button-whatsapp-mobile">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                    WhatsApp
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section" data-testid="section-hero">
+        <div class="hero-background"></div>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-text-container">
+                <p class="hero-welcome" data-testid="text-welcome">Хуш омадед ба</p>
+                <h1 class="hero-title" data-testid="text-lyceum-name">Литсейи Касбии Техникии Саноати Нассоҷии шахри Душанбе</h1>
+                
+                <div class="hero-card" data-testid="card-info">
+                    <div class="info-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="info-icon"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                        <div>
+                            <h3>Муддати таҳсил</h3>
+                            <p>Ин литсей 2 сола мебошад. Барои хатмкунандагони синфи 9 — 2 сол, барои синфи 11 — 1 сол.</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="info-icon"><circle cx="12" cy="12" r="8"/><path d="M12 2v7.5"/><path d="m19 5-5.23 5.23"/></svg>
+                        <div>
+                            <h3>Ҳаққи таҳсил</h3>
+                            <p>Ҳаққи таҳсил 1200 сомонӣ дар як сол.</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="info-icon"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                        <div>
+                            <h3>Ихтисосҳо</h3>
+                            <p>зиёда аз 8 ихтисосҳои гуногуни касбӣ</p>
+                        </div>
+                    </div>
+                    <a href="https://wa.me/992985496169" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" data-testid="button-whatsapp-hero">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                        Маълумоти бештар дар WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section" data-testid="section-stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card" data-testid="card-stat-0">
+                    <div class="stat-icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="stat-icon"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                    </div>
+                    <h3 data-testid="text-stat-title-0">зиёда аз 8 Ихтисос</h3>
+                    <p>Барномаҳои касбии гуногун барои омодагии мутахассисон</p>
+                </div>
+                <div class="stat-card" data-testid="card-stat-1">
+                    <div class="stat-icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="stat-icon"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    </div>
+                    <h3 data-testid="text-stat-title-1">Таҳсили муосир</h3>
+                    <p>Омӯзиш бо таҷҳизоти замонавӣ ва усулҳои муосир</p>
+                </div>
+                <div class="stat-card" data-testid="card-stat-2">
+                    <div class="stat-icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="stat-icon"><path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"/><circle cx="12" cy="8" r="6"/></svg>
+                    </div>
+                    <h3 data-testid="text-stat-title-2">Шаҳодатнома</h3>
+                    <p>Дарёфти шаҳодатномаи расмӣ баъд аз хатми таҳсил</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Specialties Section -->
+    <section id="specialties" class="specialties-section" data-testid="section-specialties">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-testid="text-specialties-title">Ихтисосҳои мо</h2>
+                <p> зиёда аз 8 ихтисосҳои касбӣ барои омодагии мутахассисони соҳибмаҳорат</p>
+            </div>
+
+            <div class="specialties-grid">
+                <!-- Сварчик -->
+                <div class="specialty-card" data-testid="card-specialty-svarik">
+                    <div class="specialty-image" style="background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.6) 100%), url('https://cdn.pixabay.com/photo/2016/11/01/16/02/weld-1788679_960_720.jpg');"></div>
+                    <div class="specialty-content">
+                        <h3 data-testid="text-specialty-name-svarik">Сварчик</h3>
+                        <p>Таълими касбии сварчикӣ бо таҷҳизоти муосир</p>
+                    </div>
+                </div>
+
+                <!-- Электрик -->
+                <div class="specialty-card" data-testid="card-specialty-electrik">
+                    <div class="specialty-image" style="background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.6) 100%), url('https://img.freepik.com/free-photo/male-electrician-works-switchboard-with-electrical-connecting-cable_169016-53007.jpg');"></div>
+                    <div class="specialty-content">
+                        <h3 data-testid="text-specialty-name-electrik">Электрик</h3>
+                        <p>Мутахассисони барқ бо дониши техникӣ</p>
+                    </div>
+                </div>
+
+                <!-- Програмист -->
+                <div class="specialty-card" data-testid="card-specialty-programist">
+                    <div class="specialty-image" style="background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.6) 100%), url('https://resizer.mail.ru/p/1b644c88-7f2c-5776-973e-dd5586fa84b3/dpr:153/AQAKa7YA4DK9_FCnOwnV-juTfO4ah_eMN9T6cl5CnjG0Gn9_ywACJi5lFpRJonCpIncMIwbP4koek-7E0_4IvdhthbM.png');"></div>
+                    <div class="specialty-content">
+                        <h3 data-testid="text-specialty-name-programist">Програмист</h3>
+                        <p>Барномасозӣ ва технологияҳои иттилоотӣ</p>
+                    </div>
+                </div>
+
+                <!-- Ошпаз -->
+                <div class="specialty-card" data-testid="card-specialty-oshpaz">
+                    <div class="specialty-image" style="background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.6) 100%), url('https://tse1.mm.bing.net/th/id/OIP.91xYZkUAQCdDfJnrOq3WUgHaFi?w=1140&h=853&rs=1&pid=ImgDetMain');"></div>
+                    <div class="specialty-content">
+                        <h3 data-testid="text-specialty-name-oshpaz">Ошпаз</h3>
+                        <p>Санъати ошпазӣ ва хӯрокпазӣ</p>
+                    </div>
+                </div>
+
+                <!-- Кошонаи ҳусн -->
+                <div class="specialty-card" data-testid="card-specialty-koshonai-husn">
+                    <div class="specialty-image" style="background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.6) 100%), url('https://th.bing.com/th/id/R.e8389340b745908c1aed7f384b387372?rik=CrF%2fGC6c7B8xZA&pid=ImgRaw&r=0');"></div>
+                    <div class="specialty-content">
+                        <h3 data-testid="text-specialty-name-koshonai-husn">Кошонаи ҳусн</h3>
+                        <p>Салон ва хизматрасонии зебоӣ</p>
+                    </div>
+                </div>
+
+                <!-- Бухгалтер -->
+                <div class="specialty-card" data-testid="card-specialty-buhgalter">
+                    <div class="specialty-image" style="background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.6) 100%), url('https://nipkef.ru/upload/medialibrary/589/u61p88n70haymr8p5a5f35dax5i09mhe.jpg');"></div>
+                    <div class="specialty-content">
+                        <h3 data-testid="text-specialty-name-buhgalter">Бухгалтер</h3>
+                        <p>Бухгалтерӣ ва молияи корхона</p>
+                    </div>
+                </div>
+
+                <!-- Дӯзанда -->
+                <div class="specialty-card" data-testid="card-specialty-duzanda">
+                    <div class="specialty-image" style="background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.6) 100%), url('https://th.bing.com/th/id/R.78af0f67fcbef818791825b8af4cc311?rik=lhuS4oKXrUZY%2bA&pid=ImgRaw&r=0');"></div>
+                    <div class="specialty-content">
+                        <h3 data-testid="text-specialty-name-duzanda">Дӯзанда</h3>
+                        <p>Дӯзандагӣ ва тарроҳӣ</p>
+                    </div>
+                </div>
+
+                <!-- Матарист -->
+                <div class="specialty-card" data-testid="card-specialty-matarist">
+                    <div class="specialty-image" style="background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.6) 100%), url('https://b-port.com/mediafiles/news/3170e/890/ac473c46831854cc70400d1a9c83bc42414bce39.jpg');"></div>
+                    <div class="specialty-content">
+                        <h3 data-testid="text-specialty-name-matarist">Матарист</h3>
+                        <p>Таъмири мошинҳо ва механикӣ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="location-section" data-testid="section-location">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-testid="text-location-title">Ҷои литсей</h2>
+                <p>Барои маълумоти бештар бо мо тамос гиред</p>
+            </div>
+
+            <div class="location-grid">
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3068.2929792!2d68.7797!3d38.5598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzjCsDMzJzM1LjMiTiA2OMKwNDYnNDYuOSJF!5e0!3m2!1sen!2s!4v1234567890"
+                        width="100%"
+                        height="100%"
+                        style="border:0;"
+                        allowfullscreen
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Ҷои Литсейи Касбии Техникии Саноати Нассоҷии шахри Душанбе"
+                        data-testid="map-embed">
+                    </iframe>
+                </div>
+
+                <div class="location-info">
+                    <div class="info-card">
+                        <div class="info-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="info-icon"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                            <div>
+                                <h3>Суроға</h3>
+                                <p data-testid="text-address">шахри Душанбе, Тоҷикистон</p>
+                                <a href="https://maps.app.goo.gl/9dkSMsyM62fsWveq6" target="_blank" rel="noopener noreferrer" class="link-primary" data-testid="link-google-maps">
+                                    Дар Google Maps кушоед
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" x2="21" y1="14" y2="3"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="info-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="info-icon"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                            <div>
+                                <h3>Телефон</h3>
+                                <p data-testid="text-phone">+992 98 549 6169</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <h3>Саволҳо доред?</h3>
+                        <p>Барои маълумоти бештар дар бораи қабул ва таҳсил бо мо тамос гиред</p>
+                        <a href="https://wa.me/992985496169" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" data-testid="button-whatsapp-location">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                            Тамос дар WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" data-testid="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3 data-testid="text-footer-name">Литсейи Касбии Техникии Саноати Нассоҷии шахри Душанбе</h3>
+                    <p>Таълими касбии муосир барои ояндаи равшан</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Ихтисосҳо</h4>
+                    <ul>
+                        <li>Сварчик</li>
+                        <li>Электрик</li>
+                        <li>Програмист</li>
+                        <li>Ошпаз</li>
+                        <li>Кошонаи ҳусн</li>
+                        <li>Бухгалтер</li>
+                        <li>Дӯзанда</li>
+                        <li>Матарист</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Тамос</h4>
+                    <p data-testid="text-footer-phone">+992 98 549 6169</p>
+                    <div class="footer-social">
+                        <a href="https://instagram.com/yusuf.sm" target="_blank" rel="noopener noreferrer" class="social-btn" data-testid="link-footer-instagram" aria-label="Instagram">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                        </a>
+                        <a href="https://wa.me/992985496169" target="_blank" rel="noopener noreferrer" class="social-btn" data-testid="link-footer-whatsapp" aria-label="WhatsApp">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2025 Литсейи Касбии Техникии Саноати Нассоҷии шахри Душанбе. Ҳамаи ҳуқуқҳо маҳфуз аст.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navigation = document.getElementById('navigation-bar');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('active');
+            mobileMenuBtn.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking on a link
+        const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+        mobileMenuLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.remove('active');
+                mobileMenuBtn.classList.remove('active');
+            });
+        });
+
+        // Navigation scroll effect
+        let lastScrollY = 0;
+        window.addEventListener('scroll', () => {
+            const scrollY = window.scrollY;
+            if (scrollY > 20) {
+                navigation.classList.add('scrolled');
+            } else {
+                navigation.classList.remove('scrolled');
+            }
+            lastScrollY = scrollY;
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
